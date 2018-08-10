@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C5806D82630DFBBE3521B33 /* Pods_EasternPromisesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3F2219BA05DDDA4D356499 /* Pods_EasternPromisesUITests.framework */; };
+		1EABD7E862C6DFFBD19E2815 /* Pods_EasternPromises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19A1554F39E3E5677C0EFA6 /* Pods_EasternPromises.framework */; };
+		2ECE060A434ECE52FF44DE9F /* Pods_EasternPromisesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66990D0212B2DCA6FDBCAA51 /* Pods_EasternPromisesTests.framework */; };
 		D838865B211E1E6600701A64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D838865A211E1E6600701A64 /* AppDelegate.swift */; };
-		D838865D211E1E6600701A64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D838865C211E1E6600701A64 /* ViewController.swift */; };
 		D8388660211E1E6600701A64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D838865E211E1E6600701A64 /* Main.storyboard */; };
 		D8388662211E1E6700701A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8388661211E1E6700701A64 /* Assets.xcassets */; };
 		D8388665211E1E6700701A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8388663211E1E6700701A64 /* LaunchScreen.storyboard */; };
 		D8388670211E1E6700701A64 /* EasternPromisesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D838866F211E1E6700701A64 /* EasternPromisesTests.swift */; };
 		D838867B211E1E6700701A64 /* EasternPromisesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D838867A211E1E6700701A64 /* EasternPromisesUITests.swift */; };
+		D8388689211E1F4800701A64 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8388688211E1F4700701A64 /* background.jpg */; };
+		D838868B211E230B00701A64 /* BrokenPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D838868A211E230B00701A64 /* BrokenPromise.swift */; };
+		D838868D211E2E6A00701A64 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D838868C211E2E6A00701A64 /* WeatherViewController.swift */; };
+		D838868F211E2ED300701A64 /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D838868E211E2ED300701A64 /* LocationHelper.swift */; };
+		D8388691211E2EE900701A64 /* WeatherHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8388690211E2EE900701A64 /* WeatherHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5AF37DB4AA5F3B6E0AFD8C7E /* Pods-EasternPromises.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasternPromises.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasternPromises/Pods-EasternPromises.debug.xcconfig"; sourceTree = "<group>"; };
+		5DE93A1587C4D7DEDA4B1A85 /* Pods-EasternPromises.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasternPromises.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasternPromises/Pods-EasternPromises.release.xcconfig"; sourceTree = "<group>"; };
+		66990D0212B2DCA6FDBCAA51 /* Pods_EasternPromisesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasternPromisesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3F2219BA05DDDA4D356499 /* Pods_EasternPromisesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasternPromisesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D22B101F906269868718C1 /* Pods-EasternPromisesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasternPromisesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasternPromisesUITests/Pods-EasternPromisesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A43A8092F7B03CAD77C7A687 /* Pods-EasternPromisesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasternPromisesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasternPromisesTests/Pods-EasternPromisesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8ED60A8E1C5E27F1C4CC034 /* Pods-EasternPromisesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasternPromisesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasternPromisesUITests/Pods-EasternPromisesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D19A1554F39E3E5677C0EFA6 /* Pods_EasternPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasternPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8388657211E1E6600701A64 /* EasternPromises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasternPromises.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D838865A211E1E6600701A64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D838865C211E1E6600701A64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D838865F211E1E6600701A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8388661211E1E6700701A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8388664211E1E6700701A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +61,12 @@
 		D8388676211E1E6700701A64 /* EasternPromisesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasternPromisesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D838867A211E1E6700701A64 /* EasternPromisesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasternPromisesUITests.swift; sourceTree = "<group>"; };
 		D838867C211E1E6700701A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8388688211E1F4700701A64 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		D838868A211E230B00701A64 /* BrokenPromise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenPromise.swift; sourceTree = "<group>"; };
+		D838868C211E2E6A00701A64 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		D838868E211E2ED300701A64 /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
+		D8388690211E2EE900701A64 /* WeatherHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHelper.swift; sourceTree = "<group>"; };
+		F38D1F0A8752ABC269955560 /* Pods-EasternPromisesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasternPromisesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasternPromisesTests/Pods-EasternPromisesTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EABD7E862C6DFFBD19E2815 /* Pods_EasternPromises.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ECE060A434ECE52FF44DE9F /* Pods_EasternPromisesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C5806D82630DFBBE3521B33 /* Pods_EasternPromisesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98DAE0860A551575555349EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D19A1554F39E3E5677C0EFA6 /* Pods_EasternPromises.framework */,
+				66990D0212B2DCA6FDBCAA51 /* Pods_EasternPromisesTests.framework */,
+				6C3F2219BA05DDDA4D356499 /* Pods_EasternPromisesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEF228F4D45385A2C7E52F56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AF37DB4AA5F3B6E0AFD8C7E /* Pods-EasternPromises.debug.xcconfig */,
+				5DE93A1587C4D7DEDA4B1A85 /* Pods-EasternPromises.release.xcconfig */,
+				A43A8092F7B03CAD77C7A687 /* Pods-EasternPromisesTests.debug.xcconfig */,
+				F38D1F0A8752ABC269955560 /* Pods-EasternPromisesTests.release.xcconfig */,
+				C8ED60A8E1C5E27F1C4CC034 /* Pods-EasternPromisesUITests.debug.xcconfig */,
+				91D22B101F906269868718C1 /* Pods-EasternPromisesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D838864E211E1E6600701A64 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +127,8 @@
 				D838866E211E1E6700701A64 /* EasternPromisesTests */,
 				D8388679211E1E6700701A64 /* EasternPromisesUITests */,
 				D8388658211E1E6600701A64 /* Products */,
+				CEF228F4D45385A2C7E52F56 /* Pods */,
+				98DAE0860A551575555349EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,9 +146,13 @@
 			isa = PBXGroup;
 			children = (
 				D838865A211E1E6600701A64 /* AppDelegate.swift */,
-				D838865C211E1E6600701A64 /* ViewController.swift */,
+				D838868A211E230B00701A64 /* BrokenPromise.swift */,
+				D838868C211E2E6A00701A64 /* WeatherViewController.swift */,
+				D838868E211E2ED300701A64 /* LocationHelper.swift */,
+				D8388690211E2EE900701A64 /* WeatherHelper.swift */,
 				D838865E211E1E6600701A64 /* Main.storyboard */,
 				D8388661211E1E6700701A64 /* Assets.xcassets */,
+				D8388688211E1F4700701A64 /* background.jpg */,
 				D8388663211E1E6700701A64 /* LaunchScreen.storyboard */,
 				D8388666211E1E6700701A64 /* Info.plist */,
 			);
@@ -132,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D838867F211E1E6700701A64 /* Build configuration list for PBXNativeTarget "EasternPromises" */;
 			buildPhases = (
+				4B3F09FA51C00BC13995F98D /* [CP] Check Pods Manifest.lock */,
 				D8388653211E1E6600701A64 /* Sources */,
 				D8388654211E1E6600701A64 /* Frameworks */,
 				D8388655211E1E6600701A64 /* Resources */,
+				C8BFDDED3C2AEA8C254570CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8388682211E1E6700701A64 /* Build configuration list for PBXNativeTarget "EasternPromisesTests" */;
 			buildPhases = (
+				C93157A0C3F6F0A3AF859497 /* [CP] Check Pods Manifest.lock */,
 				D8388667211E1E6700701A64 /* Sources */,
 				D8388668211E1E6700701A64 /* Frameworks */,
 				D8388669211E1E6700701A64 /* Resources */,
@@ -167,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8388685211E1E6700701A64 /* Build configuration list for PBXNativeTarget "EasternPromisesUITests" */;
 			buildPhases = (
+				E98D09BC09FF8011A8D77968 /* [CP] Check Pods Manifest.lock */,
 				D8388672211E1E6700701A64 /* Sources */,
 				D8388673211E1E6700701A64 /* Frameworks */,
 				D8388674211E1E6700701A64 /* Resources */,
@@ -230,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8388665211E1E6700701A64 /* LaunchScreen.storyboard in Resources */,
+				D8388689211E1F4800701A64 /* background.jpg in Resources */,
 				D8388662211E1E6700701A64 /* Assets.xcassets in Resources */,
 				D8388660211E1E6600701A64 /* Main.storyboard in Resources */,
 			);
@@ -251,12 +308,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B3F09FA51C00BC13995F98D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasternPromises-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8BFDDED3C2AEA8C254570CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EasternPromises/Pods-EasternPromises-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasternPromises/Pods-EasternPromises-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C93157A0C3F6F0A3AF859497 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasternPromisesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E98D09BC09FF8011A8D77968 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasternPromisesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D8388653211E1E6600701A64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D838865D211E1E6600701A64 /* ViewController.swift in Sources */,
+				D838868F211E2ED300701A64 /* LocationHelper.swift in Sources */,
+				D8388691211E2EE900701A64 /* WeatherHelper.swift in Sources */,
+				D838868B211E230B00701A64 /* BrokenPromise.swift in Sources */,
+				D838868D211E2E6A00701A64 /* WeatherViewController.swift in Sources */,
 				D838865B211E1E6600701A64 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +563,7 @@
 		};
 		D8388680211E1E6700701A64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF37DB4AA5F3B6E0AFD8C7E /* Pods-EasternPromises.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +582,7 @@
 		};
 		D8388681211E1E6700701A64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DE93A1587C4D7DEDA4B1A85 /* Pods-EasternPromises.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +601,7 @@
 		};
 		D8388683211E1E6700701A64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43A8092F7B03CAD77C7A687 /* Pods-EasternPromisesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +623,7 @@
 		};
 		D8388684211E1E6700701A64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F38D1F0A8752ABC269955560 /* Pods-EasternPromisesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +645,7 @@
 		};
 		D8388686211E1E6700701A64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8ED60A8E1C5E27F1C4CC034 /* Pods-EasternPromisesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +666,7 @@
 		};
 		D8388687211E1E6700701A64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D22B101F906269868718C1 /* Pods-EasternPromisesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
